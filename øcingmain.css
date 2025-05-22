@@ -1,0 +1,118 @@
+
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+}
+
+
+
+
+
+
+nav > .logos > img {
+    width: 50px;
+   
+}
+
+nav {
+    background-color: black;
+    display:flex;
+    align-items:center;
+    padding:10px;
+    position:fixed;
+    width: 100%;
+    top: 0;
+
+}
+
+nav > .nav-ting {
+    width:95%;
+    text-align:center;
+
+}
+
+
+nav > .nav-ting > a {
+    color: #afff;
+    font-size: 20px;
+    text-decoration: none;
+    margin-right: 10px;
+    margin-left: 10px; 
+    transitions: 0.5s;
+     
+}
+
+nav > .logginn > a {
+    color:#afff;
+    text-align: right;
+    margin-right:40px;
+}
+
+nav > .logginn > a:hover {
+    color: white;
+}
+
+nav > .nav-ting > a:hover {
+    color: white;
+
+}
+
+
+
+
+
+
+    header  {
+    display: flex;
+    align-items: center;
+    margin-top: 0rem;
+    margin-left: 25rem;
+    margin-right: 10rem;
+    margin-bottom: 10rem;
+    width: 1500px;
+    position: center;
+   
+    
+}
+
+header > .word {
+    color: #afff;
+    position: absolute;
+    margin-left: 40rem;;
+    margin-top: 50rem;
+    margin-bottom: 40rem;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+   
+    
+
+}
+
+.button {
+    margin-right:10px;
+    background: #bb86fc;
+}
+ header > .word > a:hover {
+    color: white;
+    
+ }
+
+
+header > .reklame > img {
+
+    object-fit: cove ;
+    
+    width: 100%;
+    
+    object-fit: cover;
+    position: absolut;
+    z-index: -10;
+    
+
+    
+}
+
+    
+
